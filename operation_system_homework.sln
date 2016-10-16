@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operation_system_homework", "operation_system_homework\operation_system_homework.csproj", "{7BAF4699-9341-4D51-9476-4D9535A29CCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "operation_system_homework\Program.csproj", "{7BAF4699-9341-4D51-9476-4D9535A29CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationSystems", "OperationSystems\OperationSystems.csproj", "{624760AF-5D53-4F71-A263-C386299A7BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationSystems.DataStructures", "OperationSystems.DataStructures\OperationSystems.DataStructures.csproj", "{DFFB6163-0167-41A3-8259-5DCACF46495C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7BAF4699-9341-4D51-9476-4D9535A29CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BAF4699-9341-4D51-9476-4D9535A29CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BAF4699-9341-4D51-9476-4D9535A29CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624760AF-5D53-4F71-A263-C386299A7BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624760AF-5D53-4F71-A263-C386299A7BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624760AF-5D53-4F71-A263-C386299A7BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624760AF-5D53-4F71-A263-C386299A7BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFB6163-0167-41A3-8259-5DCACF46495C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFB6163-0167-41A3-8259-5DCACF46495C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFB6163-0167-41A3-8259-5DCACF46495C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFB6163-0167-41A3-8259-5DCACF46495C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
