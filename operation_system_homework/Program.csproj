@@ -49,10 +49,27 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Dependencies\Dependencies.csproj">
+      <Project>{FCCA573B-166E-4FDF-8AD8-9C31430335C2}</Project>
+      <Name>Dependencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library.Parser\Library.Parser.csproj">
+      <Project>{C6F9B680-1612-49FC-8E76-4181B71838B0}</Project>
+      <Name>Library.Parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{D6C3DA5E-3529-4216-AE15-D91934FDB3E8}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OperationSystems.DataStructures\OperationSystems.DataStructures.csproj">
       <Project>{DFFB6163-0167-41A3-8259-5DCACF46495C}</Project>
       <Name>OperationSystems.DataStructures</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Process.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
