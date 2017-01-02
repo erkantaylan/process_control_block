@@ -1,3 +1,5 @@
+```3. odev 1. ödevin devamı olarak bu repoya commitlenmiştir, ama açıklama yazılması unutulmuştur.```
+
 # Homework 1 -  Process Control Block
 
 Soru
